@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <Pane prefHeight="465.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.lab09.controllers.MapController">
    <children>
       <ImageView fitHeight="465.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
@@ -14,12 +13,12 @@
             <Image url="@../../images/Red-Summer.jpg" />
          </image>
       </ImageView>
-      <Button fx:id="SanFranciscoCAButton" layoutY="197.0" mnemonicParsing="false" onAction="#SanFranciscoCAButtonClick" text="San Francisco&#10;California">
+      <Button fx:id="SanFranciscoCAButton" layoutY="197.0" mnemonicParsing="false" onAction="#onSanFranciscoCAButtonClick" text="San Francisco&#10;California">
          <font>
             <Font size="10.0" />
          </font>
       </Button>
-      <Button fx:id="BisbeeAZButton" layoutX="115.0" layoutY="332.0" mnemonicParsing="false" onAction="#BisbeeAZButtonClick" text="Bisbee &#10;Arizona">
+      <Button fx:id="BisbeeAZButton" layoutX="115.0" layoutY="332.0" mnemonicParsing="false" onAction="#onBisbeeAZButtonClick" text="Bisbee &#10;Arizona">
          <font>
             <Font size="10.0" />
          </font>

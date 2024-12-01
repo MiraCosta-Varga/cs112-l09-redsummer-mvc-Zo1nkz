@@ -28,8 +28,8 @@
    <ImageView fx:id="logoImageView" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
       <children>
-          <Button text="Start" />
-         <Button text="Quit" />
+          <Button fx:id="startButton" onAction="#onStartButtonClick" text="Start" />
+         <Button fx:id="quitButton" onAction="#onQuitButtonClick" text="Quit" />
       </children>
    </HBox>
 </VBox>
